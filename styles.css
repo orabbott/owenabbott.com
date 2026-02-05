@@ -1,0 +1,97 @@
+* {
+    font-family: 'Satoshi', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.website {
+    text-align: center;
+}
+
+.header-holder {
+    text-align: center;
+}
+
+.emojis a {
+    font-size: 6vh;
+    position: fixed;
+}
+
+.guitar {
+    right: 90vw;
+    top: 20vh;
+}
+
+.die {
+    right: 80vw;
+    top: 45vh;
+}
+
+.banjo {
+    left: 85vw;
+    top: 40vh;
+}
+
+.computer {
+    left: 70vw;
+    top: 70vh;
+}
+
+h1 {
+    font-size: 8vh;
+    margin-top: 5%;
+    transition: transform 0.5s;
+    display: inline-block;
+}
+
+h1:hover {
+    transform: scale(1.2);
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.selfimage {
+    margin-left: 17%;
+    bottom: 0;
+    height: 50vh;
+    width: 50vh;
+    position: fixed;
+}
+
+.mynav {
+    height: 80px;
+    text-align: center;
+    background-color: rgb(232, 232, 240);
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbutton {
+    background-color: rgb(70, 79, 91);
+    color: white;
+    height: 53%;
+    width: 25%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 97%;
+    font-weight: 500;
+    transition: color .5s, background-color .5s, transform .5s;
+    box-shadow: inset 3 3 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbutton:hover {
+    color: black;
+    background-color: #FFFFFF;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
