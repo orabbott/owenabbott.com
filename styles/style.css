@@ -3,6 +3,8 @@
 }
 
 body {
+    min-height: 100vh;
+    background: linear-gradient(white 90%, rgb(235, 235, 235));
     margin: 0;
     padding: 0;
 }
@@ -15,36 +17,17 @@ body {
     text-align: center;
 }
 
-.emojis a {
-    font-size: 6vh;
-    position: fixed;
-}
-
-.guitar {
-    right: 90vw;
-    top: 20vh;
-}
-
-.die {
-    right: 80vw;
-    top: 45vh;
-}
-
-.banjo {
-    left: 85vw;
-    top: 40vh;
-}
-
-.computer {
-    left: 70vw;
-    top: 70vh;
-}
-
 h1 {
     font-size: 8vh;
-    margin-top: 5%;
+    margin-top: 12vh;
     transition: transform 0.5s;
     display: inline-block;
+}
+
+h2 {
+    position: absolute;
+    left: 20vw;
+    width: 30vw;
 }
 
 h1:hover {
@@ -75,10 +58,14 @@ p {
 }
 
 .navbutton {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(70, 79, 91);
     color: white;
-    height: 53%;
-    width: 25%;
+    height: 6vh;
+    width: 23vw;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     border: 2px solid black;
     border-radius: 15px;
@@ -94,4 +81,3 @@ p {
     transform: scale(1.02);
     cursor: pointer;
 }
-
