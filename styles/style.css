@@ -9,34 +9,44 @@ body {
     padding: 0;
 }
 
-.website {
-    text-align: center;
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-holder {
     text-align: center;
 }
 
+.bubble {
+    position: absolute;
+    width: 700px;
+    z-index: -1;
+    top: 15vh;
+    height: 35vh;
+    left: 26%;
+}
+
 h1 {
     font-size: 8vh;
-    margin-top: 12vh;
+    margin-top: 10vh;
     transition: transform 0.5s;
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 h2 {
-    position: absolute;
-    left: 20vw;
-    width: 30vw;
+    padding: 10vh 10vw;
+    width: 40vw;
+}
+
+.contact {
+    font-weight: 200;
 }
 
 h1:hover {
     transform: scale(1.2);
-}
-
-p {
-    text-align: center;
-    margin-top: 10px;
 }
 
 .selfimage {
