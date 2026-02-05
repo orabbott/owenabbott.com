@@ -19,14 +19,6 @@ body {
     text-align: center;
 }
 
-.bubble {
-    position: absolute;
-    width: 700px;
-    z-index: -1;
-    top: 15vh;
-    height: 35vh;
-    left: 26%;
-}
 
 h1 {
     font-size: 8vh;
